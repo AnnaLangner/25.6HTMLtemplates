@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title log in with Google
+        link(
+            rel='stylesheet'
+            href='css/google.css'
+        )
+    body
+        logo
+            img(
+                src='assets/google.png'
+                alt='google'
+            )
+        form(action='http://localhost:3000/auth/google', method='GET')
+            p
+                | First Name:
+                input(type='text', name='first_name')
+            p
+                | Last Name:
+                input(type='text', name='last_name')
+            input(type='submit', value='Submit')

@@ -10,6 +10,10 @@ app.get('/', function(req, res){
     res.render('index');
 });
 
+app.get('/auth/google', function (req, res) {
+    res.render('google');
+});
+
 app.listen(3000);
 
 app.use(function (req, res, next) {
