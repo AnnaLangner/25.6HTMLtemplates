@@ -4,21 +4,21 @@ html
         meta(charset='UTF-8')
         title log in with Google
         link(
-            rel='stylesheet'
-            href='/css/google.css'
+            rel='stylesheet',
+            href='../google.css',
             type='text/css'
                     )
-            body
-                .logo
-                    img(
-                        src='assets/google.png'
-                        alt='google'
-                    )
-                form(action='http://localhost:3000/auth/google', method='GET')
-                    p
-                        | User Name:
-                        input(type='text', placeholder='user_name')
-                    p
-                        | Password:
-                        input(type='password', placeholder='password')
-                    input(type='submit', value='Submit')
+    body
+        .logo
+            img(
+                src='../google.png'
+                alt='google'
+            )
+        form(action='http://localhost:3000/auth/google', method='GET')
+            p
+                | User Name:
+                input(type='text', placeholder='user_name')
+            P
+                | Password:
+                input(type='password', placeholder='password')
+            input(type='submit', value='Submit')
