@@ -3,14 +3,12 @@ body {
 }
 
 .logo {
-    width: 450px;
     padding-top: 50px;
     text-align: center;
 }
 
 form {
     padding-top: 10px;
-    width: 450px;
     text-align: center;
 }
 
@@ -31,6 +29,7 @@ input[type='submit'] {
     margin-right: 10px;
     margin-top: 10px;
     padding: 4px 20px;
+    text-transform: uppercase;
     background-color: #00A1F1;
     color: #FFBB00;
     outline: none;

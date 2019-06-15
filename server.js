@@ -3,6 +3,9 @@ bodyParser = require('body-parser');
 var app = express();
 app.use(bodyParser.json());
 
+app.use(express.static('css'));
+app.use(express.static('assets'));
+
 app.set('view engine', 'pug');
 app.set('views','./views');
 

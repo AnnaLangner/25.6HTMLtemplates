@@ -5,7 +5,7 @@ h3 {
     display: inline-block;
     white-space: pre-wrap;
     word-wrap: break-word;
-    width: 600px;
+    justify-content: center;
     text-align: center;
     font-size: 22px;
 }
